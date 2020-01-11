@@ -12,7 +12,7 @@ const PinSchema = new mongoose.Schema(
       {
         text: String,
         createdAt: { type: Date, default: Date.now },
-        autor: { type: mongoose.Schema.ObjectId, ref: "User" }
+        author: { type: mongoose.Schema.ObjectId, ref: "User" }
       }
     ]
   },
