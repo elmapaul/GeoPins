@@ -68,7 +68,6 @@ export default function reducer(state, { type, payload }) {
       const updatedPins = state.pins.map(pin =>
         pin._id === updatedCurrentPin._id ? updatedCurrentPin : pin
       );
-      console.log("up:", updatedCurrentPin);
       return {
         ...state,
         pins: updatedPins,

@@ -15,12 +15,12 @@ export const CREATE_PIN_MUTATION = `
             latitude
             longitude
             author {
-                _id
-                name
-                email
-                picture
+              _id
+              name
+              email
+              picture
             }
-        }
+          }
     }
 `;
 
